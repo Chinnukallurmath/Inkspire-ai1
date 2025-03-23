@@ -3,8 +3,8 @@ import groq
 import os
 
 # Set up Groq API client
-#client = groq.Client(api_key=os.getenv("GROQ_API_KEY"))
-client = groq.Client(api_key=st.secrets["GROQ_API_KEY"])
+client = groq.Client(api_key=os.getenv("GROQ_API_KEY"))
+#client = groq.Client(api_key=os.getenv["GROQ_API_KEY"])
 
 # Streamlit UI styling
 st.markdown(
